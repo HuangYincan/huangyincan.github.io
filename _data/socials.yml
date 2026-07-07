@@ -1,13 +1,20 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+#
+# ⚠️ 字段名必须是 jekyll-socials 的内置名，否则部署会报错（undefined method 'split'）
+#   github → github_username
+#   twitter/x → x_username
+#   linkedin → linkedin_username
+#   Google Scholar → scholar_userid
+# 内置字段全部可选，不想要就整个删掉（比留空值更安全）。
 
 email: Yincan_Huang@zju.edu.cn # 你的邮箱
-github: HuangYincan # 你的 GitHub 用户名
+github_username: HuangYincan # 你的 GitHub 用户名（注意是 github_username，不是 github！）
 rss_icon: true # comment this line to hide the RSS icon
 
 # cv_pdf: /assets/pdf/cv.pdf # 简历 PDF 路径（取消注释并上传文件后启用）
 
-# 以下社交账号暂未填写，需要时取消注释并填入你的 ID
+# 以下社交账号暂未填写，需要时取消注释并填入对应 ID
 # scholar_userid: # Google Scholar ID
 # wechat_qr: # 微信二维码图片文件名（如 wechat-qr.png，放到 assets/img/）
